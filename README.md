@@ -9,7 +9,7 @@ Also i have coded the ASM 6809 routines to manage them.<br/>
 Many rom cartridge are designed before, but i had got the need to design my version with few simple components, and the possibility to program the rom from pc128 itself.
 ## START POINT
 The PC128 computers have a cartridge port with the main computer signals, 8 bit data bus, 16 bit address bus, chip select, master clock.<br/>
-![](https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/blob/main/COMMON/Expansion_port.jpg)<br/>
+![](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/COMMON/IMG_20220504_184939.jpg )<br/>
 ## ROM CHIP SELECTION CRITERION
 The AT28C256 first chip selection is based on its simple architecture, 8 bit bus, 15 bit address and is very simple to program. Another good reason is that i had 3 spare component in my folder :)<br/>
 The SST39F040 second chip selection is also based on its pacakge, pth tecnology, 8 bit bus, and mostly on its 512 kbyte size that permits to switch between 32 pages of 16 kbyte each one.<br/>
