@@ -22,4 +22,4 @@ Single board develepments are better described to the links below or wiki sectio
 ## SOFTWARE TOOLS
 [Kicad](https://www.kicad.org/) and [Freerounting](https://freerouting.org/) to develop schematics and pcb.<br/>
 ## RESOURCES
-
+http://dcmoto.free.fr/documentation/schemas/mo6.png
