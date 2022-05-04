@@ -1,8 +1,8 @@
 # PC128-OLIVETTI-PRODEST-BIGROM
 ## PROJECT OVERVIEW
-This is a project is born to build a secondary sound card expansion for my PC 128 OLIVETTI PRODEST HOME COMPUTER.<br/>
-I have designed and built two different sound cards based on two different sound chip.<br/>
-One sound card is based on PSG SN76489AN sound chip, the second is based on OPLL YM2413 sound chip.<br/>
+This is a project is born to build a multi page rom cartridge for my PC 128 OLIVETTI PRODEST HOME COMPUTER.<br/>
+I have designed and built two different rom cards based on two different rom chip.<br/>
+One rom card is based on at28c256 rom chip, the second is based on sst39f040 flash chip.<br/>
 Also i have coded the ASM 6809 routines to play sound demos.<br/>
 
 ## HOW IT STARTED
