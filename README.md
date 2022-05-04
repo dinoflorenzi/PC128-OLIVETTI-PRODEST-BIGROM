@@ -18,8 +18,7 @@ Single board develepments are better described to the links below or wiki sectio
 [MULTI PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/wiki/YM2413-MOTO-SOUND-CARD)<br/>
 ## CARTRIDGE USAGE
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%>
-<img src="https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/blob/main/COMMON/IMG_3650.JPG" width=30%>
-<img src="https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/blob/main/COMMON/IMG_3651.JPG" width=30%><br/>
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SINGLE%20PAGE%20VERSION/IMG_20220315_185708.jpg" width=30%>
 ## SOFTWARE TOOLS
 [Kicad](https://www.kicad.org/) and [Freerounting](https://freerouting.org/) to develop schematics and pcb.<br/>
 ## RESOURCES
