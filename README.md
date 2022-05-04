@@ -14,11 +14,18 @@ The PC128 computers have a cartridge port with the main computer signals, 8 bit 
 The AT28C256 first chip selection is based on its simple architecture, 8 bit bus, 15 bit address and is very simple to program. Another good reason is that i had 3 spare component in my folder :)<br/>
 The SST39F040 second chip selection is also based on its pacakge, pth tecnology, 8 bit bus, and mostly on its 512 kbyte size that permits to switch between 32 pages of 16 kbyte each one.<br/>
 Single board develepments are better described to the links below or wiki section<br/>
+
 [SINGLE PAGE ROM CARD DEVELOPMENT]()<br/>
-[MULTI PAGE ROM CARD DEVELOPMENT]()<br/>
-## CARTRIDGE USAGE
-<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SINGLE%20PAGE%20VERSION/IMG_20220315_185708.jpg" width=30%>
+
+[MULTI PAGE ROM CARD DEVELOPMENT]()<br/>
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%>
+
+
+## CARTRIDGE USAGE
+To do
+## PROJECT TARGET
+To do
 ## SOFTWARE TOOLS
 [Kicad](https://www.kicad.org/) and [Freerounting](https://freerouting.org/) to develop schematics and pcb.<br/>
 ## RESOURCES
