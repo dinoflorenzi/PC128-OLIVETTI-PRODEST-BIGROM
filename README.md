@@ -6,13 +6,13 @@ One rom card is based on at28c256 rom chip, the second is based on sst39f040 fla
 Also i have coded the ASM 6809 routines to manage them.<br/>
 
 ## HOW IT STARTED
-Many rom cartridge are designed before, but i have got the need to design my version with few simple components, and the possibility to program from pc128 itself.
+Many rom cartridge are designed before, but i had got the need to design my version with few simple components, and the possibility to program the rom from pc128 itself.
 ## START POINT
-Thomson computers have an expansion port with the main computer signals, data bus, address bus, chip select, master clock, and analog sound input that is mixed with the main sound generator.<br/>
+The PC128 computers have a cartridge port with the main computer signals, 8 bit data bus, 16 bit address bus, chip select, master clock.<br/>
 ![](https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/blob/main/COMMON/Expansion_port.jpg)<br/>
-## SOUND CHIP SELECTION CRITERION
-The SN76489AN first chip selection is based on its simple architecture, 8 bit bus, four channels, up to two write sequences to generates sound or noise.<br/>
-The YM2413 second chip selection is also based on its simple architecture, 8 bit bus, nine channels, two write addresses to generates sound with hardware instruments and rythems.<br/>
+## ROM CHIP SELECTION CRITERION
+The AT28C256 first chip selection is based on its simple architecture, 8 bit bus, 15 bit address and is very simple to program. Another good reason is that i had 3 spare component :)<br/>
+The SST39F040 second chip selection is also based on its pacakge, pth tecnology, 8 bit bus, and on its 512 kbyte size that permits to switch between 32 pages of 16 kbyte.<br/>
 Single board develepments are better described to the links below or wiki section<br/>
 [SN76489AN SOUND CARD DEVELOPMENT](https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/wiki/SN76489AN-MOTO-SOUND-CARD)<br/>
 [YM2413 SOUND CARD DEVELOPMENT](https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/wiki/YM2413-MOTO-SOUND-CARD)<br/>
