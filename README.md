@@ -3,11 +3,10 @@
 This is a project is born to build a multi page rom cartridge for my PC 128 OLIVETTI PRODEST HOME COMPUTER.<br/>
 I have designed and built two different rom cards based on two different rom chip.<br/>
 One rom card is based on at28c256 rom chip, the second is based on sst39f040 flash chip.<br/>
-Also i have coded the ASM 6809 routines to play sound demos.<br/>
+Also i have coded the ASM 6809 routines to manage them.<br/>
 
 ## HOW IT STARTED
-Thomson computers have sound generator simply based on 6bit dac that fully commits the cpu countinuosly updating the sound samples. During sound streaming the computer can't do anything else.<br/>
-Beucause of that there was the need to develop a secondary sound card based on specific sound chip that generates sound by itself, only programming your own registers.<br/>
+Many rom cartridge are designed before, but i have got the need to design my version with few simple components, and the possibility to program from pc128 itself.
 ## START POINT
 Thomson computers have an expansion port with the main computer signals, data bus, address bus, chip select, master clock, and analog sound input that is mixed with the main sound generator.<br/>
 ![](https://github.com/dinoflorenzi/THOMSON-MO-TO-SOUNDCARD/blob/main/COMMON/Expansion_port.jpg)<br/>
