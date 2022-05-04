@@ -23,3 +23,5 @@ Single board develepments are better described to the links below or wiki sectio
 [Kicad](https://www.kicad.org/) and [Freerounting](https://freerouting.org/) to develop schematics and pcb.<br/>
 ## RESOURCES
 http://dcmoto.free.fr/documentation/schemas/mo6.png
+https://www.mouser.it/datasheet/2/268/doc0006-1108095.pdf
+https://www.mouser.it/datasheet/2/268/39%20Series_MPF_MPF__Product%20Brief-373259.pdf
