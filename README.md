@@ -21,11 +21,12 @@ Single board develepments are better described to the links below or wiki sectio
 [MULTI PAGE ROM CARD DEVELOPMENT]()<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/s6rl8qWxTY4/0.jpg)](https://youtu.be/s6rl8qWxTY4)
 
 
 ## CARTRIDGE USAGE
-To do
+Below, a demostrating video.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/s6rl8qWxTY4/0.jpg)](https://youtu.be/s6rl8qWxTY4)
+
 ## PROJECT TARGET
 To do
 ## SOFTWARE TOOLS
