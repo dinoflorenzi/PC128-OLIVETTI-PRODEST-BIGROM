@@ -31,6 +31,8 @@ Below, a demostrating video.
 To do
 ## SOFTWARE TOOLS
 [Kicad](https://www.kicad.org/) and [Freerounting](https://freerouting.org/) to develop schematics and pcb.<br/>
+[CMOC](http://perso.b2b2c.ca/~sarrazip/dev/cmoc.html) C compiler to develop page 0 Rom Tool.
+
 ## RESOURCES
 http://dcmoto.free.fr/documentation/schemas/mo6.png
 https://www.mouser.it/datasheet/2/268/doc0006-1108095.pdf
