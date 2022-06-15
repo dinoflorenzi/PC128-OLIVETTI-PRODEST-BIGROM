@@ -24,7 +24,7 @@ Single board develepments are better described to the links below or wiki sectio
 
 
 ## CARTRIDGE USAGE
-Below, a demostrating video.
+Below, a demostrating video.<br/>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/s6rl8qWxTY4/0.jpg)](https://youtu.be/s6rl8qWxTY4)
 
 ## PROJECT TARGET
