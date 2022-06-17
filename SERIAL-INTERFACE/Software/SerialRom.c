@@ -30,7 +30,8 @@ int main()
  
 	DIR *d;
     struct dirent *dir;
-    d = opendir("D:\\OlivettiProdest\\cart\\");
+    //d = opendir("D:\\OlivettiProdest\\cart\\");
+    d = opendir(".");
     if (d)
     {
         while ((dir = readdir(d)) != NULL)
@@ -83,7 +84,8 @@ void swap(char * filename)
 	FILE *out=NULL;
     char filein[200];
     char fileout[200];
-	char foldername[]="D:\\OlivettiProdest\\cart\\";
+    //char foldername[]="D:\\OlivettiProdest\\cart\\";
+	char foldername[]=".";
 	strcpy(filein,foldername);
 	strcpy(fileout,foldername);
 	strcat(filein,filename);
