@@ -6,7 +6,8 @@ One rom card is based on at28c256 rom chip, the second is based on sst39f040 fla
 Also i have coded the ASM 6809 routines to manage them.<br/>
 
 ## HOW IT STARTED
-Many rom cartridge are designed before, but i had got the need to design my version with few simple components, and the possibility to program the rom from pc128 itself.
+Many rom cartridge are designed before, but i had got the need to design my version with few simple components, and the possibility to program the rom from pc128 itself, without using external programmer tool.<br/>
+You can load the rom image to burn, by using cassette device, or by serial connection to external pc.<br/>
 ## START POINT
 The PC128 computers have a cartridge port with the main computer signals, 8 bit data bus, 16 bit address bus, chip select, master clock.<br/>
 ![](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/COMMON/IMG_20220504_184939.jpg )<br/>
