@@ -11,11 +11,10 @@
     int speed=3;
 
 void init();
-void swap(char *);
 int main()
 {
 
-    char byte_in;
+    unsigned char byte_in[0xFFFF];
  	printf("com port? ");
     scanf("%s",com);
     strcat(comstr,com);
@@ -26,41 +25,17 @@ int main()
     fprintf(stderr, "Serial Program\n");
     fprintf(stderr, "Opening serial port...");
 	init();
- 
- 
-	DIR *d;
-    struct dirent *dir;
-    d = opendir("D:\\OlivettiProdest\\cart\\");
-    //d = opendir(".");
-    if (d)
-    {
-        while ((dir = readdir(d)) != NULL)
-        {	
-        	char *file=dir->d_name;
-			printf("file: %s\n",file);
-        	if(strstr(file,".rom")!=NULL)
-			{
-				while(1)
-				{
 					printf("waiting....\n");
 					if(WaitCommEvent(hSerial,&eventMask,NULL))
 					{
-					ReadFile(hSerial,byte_in,1,&bytes_written,NULL);
-					//if(byte_in==2)
-					break;
+					ReadFile(hSerial,&byte_in,0xFFFF,&bytes_written,NULL);
+					
+						FILE *out;
+						out=fopen("image.bin","wb");
+						fwrite(byte_in,1,bytes_written,out);
+						fclose(out);
+						printf("%d bytes written to image.bin file\n", bytes_written);
 					}
-					else
-					init();
-				}
-				Sleep(1000);
-				swap(file); 
-			}
-                    
-        }
-        closedir(d);
-    }
-	Sleep(2000);
-    fprintf(stderr, "%d bytes written\n", bytes_written);
 
     // Close serial port
     fprintf(stderr, "Closing serial port...");
@@ -75,46 +50,6 @@ int main()
     return 0;
 }
 
-void swap(char * filename)
-{ 
-
-	char bufferin[0x4000];
-	char bufferout[0x4000];
-	FILE *in=NULL;
-	FILE *out=NULL;
-    char filein[200];
-    char fileout[200];
-    char foldername[]="D:\\OlivettiProdest\\cart\\";
-	//char foldername[]=".";
-	strcpy(filein,foldername);
-	strcpy(fileout,foldername);
-	strcat(filein,filename);
-	strcat(fileout,filename);
-	fileout[strlen(fileout)-6]=0;
-	strcat(fileout,".rom");
-	printf("%s\n", filein);
-	//printf("%s\n", fileout);
-	in=fopen(filein,"rb");
-	//out=fopen(fileout,"wb");
-	//if(in==NULL||out==NULL)
-	//printf("fail\n");
-	fread(bufferin,0x4000,1,in);	
-	//for(int i=0;i<0x1000;i++)
-	//bufferout[i]=bufferin[i+0x3000];
-	//for(int i=0;i<0x3000;i++)
-	//bufferout[i+0x1000]=bufferin[i];
-	//fwrite(bufferout,0x4000,0x0000,out);
-	fclose(in);
-	//fclose(out);
-	fprintf(stderr, "Sending bytes...");
-    if(!WriteFile(hSerial, bufferin, 0X4000, &bytes_written, NULL))
-    {
-        fprintf(stderr, "Error\n");
-        CloseHandle(hSerial);
-        return 1;
-    }
-	
-}
 
 void init()
 {
@@ -180,19 +115,19 @@ void init()
     }
 
     // Set COM port timeout settings
-	/*
-    timeouts.ReadIntervalTimeout = 50;
-    timeouts.ReadTotalTimeoutConstant = 50;
-    timeouts.ReadTotalTimeoutMultiplier = 10;
-    timeouts.WriteTotalTimeoutConstant = 50;
-    timeouts.WriteTotalTimeoutMultiplier = 10;
+	
+    timeouts.ReadIntervalTimeout = 0;
+    timeouts.ReadTotalTimeoutConstant = 5000;
+    timeouts.ReadTotalTimeoutMultiplier = 0;
+    timeouts.WriteTotalTimeoutConstant = 0;
+    timeouts.WriteTotalTimeoutMultiplier = 0;
     if(SetCommTimeouts(hSerial, &timeouts) == 0)
     {
         fprintf(stderr, "Error setting timeouts\n");
         CloseHandle(hSerial);
         return 1;
     }
-	*/
+	
 	SetCommMask(hSerial,EV_RXCHAR);
 
 }
