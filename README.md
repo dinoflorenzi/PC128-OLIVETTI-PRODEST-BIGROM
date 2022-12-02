@@ -16,7 +16,7 @@ The AT28C256 first chip selection is based on its simple architecture, 8 bit bus
 The SST39F040 second chip selection is also based on its pacakge, pth tecnology, 8 bit bus, and mostly on its 512 kbyte size that permits to switch between 32 pages of 16 kbyte each one.<br/>
 Single board develepments are better described to the links below or wiki section<br/>
 
-[SINGLE PAGE ROM CARD DEVELOPMENT]()<br/>
+[SINGLE PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/BigRom)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SINGLE%20PAGE%20VERSION/IMG_20220315_185708.jpg" width=30%>
 
 [MULTI PAGE ROM CARD DEVELOPMENT]()<br/>
