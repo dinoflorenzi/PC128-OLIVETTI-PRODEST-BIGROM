@@ -19,7 +19,7 @@ Single board develepments are better described to the links below or wiki sectio
 [SINGLE PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/BigRom)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SINGLE%20PAGE%20VERSION/IMG_20220315_185708.jpg" width=30%>
 
-[MULTI PAGE ROM CARD DEVELOPMENT]()<br/>
+[MULTI PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/BigRom)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%> <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221126_183600.jpg" width=30%>
 
 ### CARTRIDGE INSTALLATION
