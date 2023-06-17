@@ -36,9 +36,9 @@ Single board develepments are better described to the links below or wiki sectio
 
 
 ## CARTRIDGE USAGE
-Below, a demostrating video.<br/>
+Below, a demostrating videos.<br/>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/s6rl8qWxTY4/0.jpg)](https://youtu.be/s6rl8qWxTY4)
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/AeOjjLHGntw/0.jpg)](https://youtu.be/AeOjjLHGntw)
 ## PROJECT TARGET
 To do
 ## SOFTWARE TOOLS
