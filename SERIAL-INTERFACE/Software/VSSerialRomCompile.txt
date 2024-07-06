@@ -1,1 +1,0 @@
-gcc VSSerialRom.c -oVSSerialRom.exe -lcomdlg32 -lcomctl32
