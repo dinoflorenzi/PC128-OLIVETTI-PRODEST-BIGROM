@@ -10,7 +10,7 @@ Molte sono le cartucce rom progettate, ma ho avuto la necessità di progettare l
 Infatti, è possibile caricare l'immagine rom da masterizzare, utilizzando un dispositivo a cassetta o tramite connessione seriale a un PC esterno.<br/>
 ## START POINT
 I computer PC128 dispongono di una porta per cartucce con i segnali principali del computer, bus dati a 8 bit, bus indirizzi a 16 bit, chip select, master clock.<br/>
-![](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/COMMON/IMG_20220504_184939.jpg )<br/>
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/COMMON/IMG_20220504_184939.jpg" width=45%><br/>
 ## ROM CHIP SELECTION CRITERION
 La prima selezione di chip AT28C256 si basa sulla sua architettura semplice, bus a 8 bit, indirizzo a 15 bit ed è molto semplice da programmare. Un altro buon motivo è che avevo 3 componenti di riserva nel mio cassetto :)
 La selezione del secondo chip SST39F040 si basa anche sul suo package (DIP32), sulla tecnologia pth, sul bus a 8 bit, e soprattutto sulla sua dimensione di 512 kbyte che permette di commutare tra 32 pagine da 16 kbyte ciascuna.
@@ -22,20 +22,21 @@ Gli sviluppi della scheda singola sono meglio descritti nei link sottostanti o n
 [MULTI PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/BigRom)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%> <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221126_183600.jpg" width=30%>
 
-### CARTRIDGE INSTALLATION
-La cartuccia si installe nello sportellino nello sportellino centrale del PC128 come mostrato nella foto<br/>
+### INSTALLAZIONE DELLA BIGROM
+La cartuccia si installa nello sportellino nello sportellino centrale del PC128, a computer spento, come mostrato nella foto<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195236.jpg" width=45%><br/>
 
-### CARTRIDGE FILE MANAGER
+### FILE MANAGER DELLA BIGROM
+Una delle 32 pagine della Bigrom è dedicata al programma di gestione della Bigrom stessa.
+La schermata principale visualizza l'elenco dei programmi contenuti nella Bigrom. Basta premere il relativo tasto per scegliere la ROM.
+Una volta avviata la ROM per tornare al programma BIGROM bisogna spegnere e riaccendere il computer.
+Premendo il tasto STOP dal menu di scelta delle ROMS si entra nel menu di gestione della ROM.
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195256.jpg" width=45%> <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195246.jpg" width=45%>
 
 ### CONNESSIONE SERIALE
 [To know more...](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Serial-Cable)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195228.jpg" width=45%><br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195752.jpg" width=45%><br/>
-
-
-
 
 ## CARTRIDGE USAGE
 Below, a demostrating videos.<br/>
