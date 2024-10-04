@@ -41,7 +41,7 @@ Il [cavo](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Ser
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195228.jpg" width=45%><br/><br/>
 Dal lato computer Windows si deve avviare il programma [VSerialRomT.exe](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SERIAL-INTERFACE/Software/VSerialRomT.exe) con il quale si potranno selezionare le roms da caricare, nell'ordine in cui sono inserite, dopodichè premere LOAD. Il programma si mette in attesa del PC128.<br/>
 Dal lato PC128 bisogna entrare nel menu di gestione premendo STOP, poi premere F per il caricamento multiplo e successivamente confermare la scelta . Attenzione se non si dispone dello spazio, verranno caricate solamente le ROMS negli spazi vuoti. L'alternativa è cancellare le ROMS non utilizzate.<br/>
-# ATTENZIONE!!!! la posizione del programma di gestione della BIGROM non può essere cambiato.<br/>
+#### ATTENZIONE!!!! la posizione del programma di gestione della BIGROM non deve essere cambiato.<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/ser2rom.png" width=80%><br/><br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195752.jpg" 
  width=45%><br/><br/>
