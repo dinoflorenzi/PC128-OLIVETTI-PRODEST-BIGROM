@@ -1,9 +1,9 @@
 # PC128-OLIVETTI-PRODEST-BIGROM
 ## PROJECT OVERVIEW
-This is a project is born to build a multi page rom cartridge for my PC 128 OLIVETTI PRODEST HOME COMPUTER.<br/>
-I have designed and built two different rom cards based on two different rom chip.<br/>
-One rom card is based on at28c256 rom chip, the second is based on sst39f040 flash chip.<br/>
-Also i have coded the ASM 6809 routines to manage them.<br/>
+Questo è un progetto nato per realizzare una cartuccia rom multi pagina per il mio PC 128 OLIVETTI PRODEST HOME COMPUTER.
+Ho progettato e costruito due diverse schede ROM basate su due diversi chip ROM.
+Una scheda ROM è basata sul chip rom at28c256, la seconda è basata sul chip flash sst39f040.
+Inoltre ho codificato le routine ASM 6809 per gestirle.<br/>
 
 ## HOW IT STARTED
 Many rom cartridge are designed before, but i had got the need to design my version with few simple components, and the possibility to program the rom from pc128 itself, without using external programmer tool.<br/>
