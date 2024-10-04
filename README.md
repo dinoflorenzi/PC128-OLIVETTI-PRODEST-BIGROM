@@ -6,15 +6,15 @@ Una scheda ROM è basata sul chip rom at28c256, la seconda è basata sul chip fl
 Inoltre ho codificato le routine ASM 6809 per gestirle.<br/>
 
 ## HOW IT STARTED
-Many rom cartridge are designed before, but i had got the need to design my version with few simple components, and the possibility to program the rom from pc128 itself, without using external programmer tool.<br/>
-You can load the rom image to burn, by using cassette device, or by serial connection to external pc.<br/>
+Molte sono le cartucce rom progettate, ma ho avuto la necessità di progettare la mia versione, con pochi semplici componenti e la possibilità di programmare la rom dal pc128 stesso, senza utilizzare strumenti di programmazione esterni.
+Infatti, è possibile caricare l'immagine rom da masterizzare, utilizzando un dispositivo a cassetta o tramite connessione seriale a un PC esterno.<br/>
 ## START POINT
-The PC128 computers have a cartridge port with the main computer signals, 8 bit data bus, 16 bit address bus, chip select, master clock.<br/>
+I computer PC128 dispongono di una porta per cartucce con i segnali principali del computer, bus dati a 8 bit, bus indirizzi a 16 bit, chip select, master clock.<br/>
 ![](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/COMMON/IMG_20220504_184939.jpg )<br/>
 ## ROM CHIP SELECTION CRITERION
-The AT28C256 first chip selection is based on its simple architecture, 8 bit bus, 15 bit address and is very simple to program. Another good reason is that i had 3 spare component in my folder :)<br/>
-The SST39F040 second chip selection is also based on its pacakge, pth tecnology, 8 bit bus, and mostly on its 512 kbyte size that permits to switch between 32 pages of 16 kbyte each one.<br/>
-Single board develepments are better described to the links below or wiki section<br/>
+La prima selezione di chip AT28C256 si basa sulla sua architettura semplice, bus a 8 bit, indirizzo a 15 bit ed è molto semplice da programmare. Un altro buon motivo è che avevo 3 componenti di riserva nel mio cassetto :)
+La selezione del secondo chip SST39F040 si basa anche sul suo package (DIP32), sulla tecnologia pth, sul bus a 8 bit, e soprattutto sulla sua dimensione di 512 kbyte che permette di commutare tra 32 pagine da 16 kbyte ciascuna.
+Gli sviluppi della scheda singola sono meglio descritti nei link sottostanti o nella sezione wiki<br/>
 
 [SINGLE PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Single-Page-Rom)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SINGLE%20PAGE%20VERSION/IMG_20220315_185708.jpg" width=30%>
