@@ -35,9 +35,13 @@ Premendo il tasto STOP dal menu di scelta delle ROMS si entra nel menu di gestio
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/Manage.png" width=45%><br/>
 
 ### CONNESSIONE SERIALE
-[To know more...](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Serial-Cable)<br/>
-<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195228.jpg" width=45%><br/>
-<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195752.jpg" width=45%><br/>
+La connessione seriale sfrutta un UART-USB adapter, che connette il PC128 ad un computer con sistema opperativo windows.
+Il [cavo](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Serial-Cable) si connette alla porta joystick 2 del PC128 e ad una qualsiasi porta USB del computer Windows.
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195228.jpg" width=45%><br/><br/>
+Dal lato computer Windows si deve avviare il programma [VSerialRomT.exe](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SERIAL-INTERFACE/Software/VSerialRomT.exe) con il quale si potranno selezionare le roms da caricare.
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/ser2rom.png" width=45%><br/><br/>
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195752.jpg" 
+ width=45%><br/><br/>
 
 ## CARTRIDGE USAGE
 Below, a demostrating videos.<br/>
