@@ -30,8 +30,9 @@ La cartuccia si installa nello sportellino nello sportellino centrale del PC128,
 Una delle 32 pagine della Bigrom è dedicata al programma di gestione della Bigrom stessa.
 La schermata principale visualizza l'elenco dei programmi contenuti nella Bigrom. Basta premere il relativo tasto per scegliere la ROM.
 Una volta avviata la ROM per tornare al programma BIGROM bisogna spegnere e riaccendere il computer.
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/Main.png" width=45%><br/>
 Premendo il tasto STOP dal menu di scelta delle ROMS si entra nel menu di gestione della ROM.
-<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195256.jpg" width=45%> <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195246.jpg" width=45%>
+<img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/Manage.png" width=45%><br/>
 
 ### CONNESSIONE SERIALE
 [To know more...](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Serial-Cable)<br/>
