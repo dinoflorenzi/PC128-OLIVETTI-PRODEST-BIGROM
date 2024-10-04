@@ -5,7 +5,7 @@ Ho progettato e costruito due diverse schede ROM basate su due diversi chip ROM.
 Una scheda ROM è basata sul chip rom at28c256, la seconda è basata sul chip flash sst39f040.
 Inoltre ho codificato le routine ASM 6809 per gestirle.<br/>
 
-## COME E' COMINCIATA
+## COME E' NATO IL PROGETTO
 Molte sono le cartucce rom progettate, ma ho avuto la necessità di progettare la mia versione, con pochi semplici componenti e la possibilità di programmare la rom dal pc128 stesso, senza utilizzare strumenti di programmazione esterni.
 Infatti, è possibile caricare l'immagine rom da masterizzare, utilizzando un dispositivo a cassetta o tramite connessione seriale a un PC esterno.<br/>
 ## PORTA PER CARTUCCE
@@ -16,10 +16,10 @@ La prima selezione di chip AT28C256 si basa sulla sua architettura semplice, bus
 La selezione del secondo chip SST39F040 si basa anche sul suo package (DIP32), sulla tecnologia pth, sul bus a 8 bit, e soprattutto sulla sua dimensione di 512 kbyte che permette di commutare tra 32 pagine da 16 kbyte ciascuna.
 Gli sviluppi della scheda singola sono meglio descritti nei link sottostanti o nella sezione wiki<br/>
 
-[SINGLE PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Single-Page-Rom)<br/>
+[CARTUCCIA A PAGINA SINGOLA](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Single-Page-Rom)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SINGLE%20PAGE%20VERSION/IMG_20220315_185708.jpg" width=30%>
 
-[MULTI PAGE ROM CARD DEVELOPMENT](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/BigRom)<br/>
+[BIGROM](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/BigRom)<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%> <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221126_183600.jpg" width=30%>
 
 ### INSTALLAZIONE DELLA BIGROM
