@@ -51,8 +51,10 @@ Attenzione se non si dispone dello spazio, verranno caricate solamente le ROMS n
 Below, a demostrating videos.<br/>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/s6rl8qWxTY4/0.jpg)](https://youtu.be/s6rl8qWxTY4)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/AeOjjLHGntw/0.jpg)](https://youtu.be/AeOjjLHGntw)
-## PROJECT TARGET
-To do
+## SVILUPPI FUTURI 
+Sincronizzazione del contenuto della Bigrom con il programma di caricamento e gestione drag&drop.
+Incremento della velocità della seriale.
+Esecuzione di programmi in basic.
 ## SOFTWARE TOOLS
 [Kicad](https://www.kicad.org/) and [Freerounting](https://freerouting.org/) to develop schematics and pcb.<br/>
 [CMOC](http://perso.b2b2c.ca/~sarrazip/dev/cmoc.html) C compiler to develop page 0 Rom Tool.
