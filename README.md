@@ -59,6 +59,10 @@ Esecuzione di programmi in basic.
 [Kicad](https://www.kicad.org/) and [Freerounting](https://freerouting.org/) to develop schematics and pcb.<br/>
 [CMOC](http://perso.b2b2c.ca/~sarrazip/dev/cmoc.html) C compiler to develop page 0 Rom Tool.
 
+## DOVE TROVARE LE ROMS
+https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/tree/main/ROMS
+http://dcmoto.free.fr/programmes/_html/support_memo5.html
+https://www.6502man.com/Bricolages/MEMO5_multirom/MEMO5_multirom.html
 ## RESOURCES
 http://dcmoto.free.fr/documentation/schemas/mo6.png
 https://www.mouser.it/datasheet/2/268/doc0006-1108095.pdf
