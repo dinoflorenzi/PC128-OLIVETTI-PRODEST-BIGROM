@@ -1,4 +1,4 @@
-## SerialRomTX.exe 
+## SerialRom.exe 
 windows console program to load roms to PC128 by dedicated serial cable. Copy this program with the roms to C:cart folder.
 
 ## SerialRomRX.exe
