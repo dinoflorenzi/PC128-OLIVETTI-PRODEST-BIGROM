@@ -36,7 +36,7 @@ Premendo il tasto STOP dal menu di scelta delle ROMS si entra nel menu di gestio
 
 ### CONNESSIONE SERIALE
 La connessione seriale sfrutta un UART-USB adapter, che connette il PC128 ad un computer con sistema opperativo windows.
-Per il funzionamento del cavo seriale sarà necessario installare i [drivers](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/tree/main/SERIAL-INTERFACE/Software/WIN_DRIVERS).<br/>
+Per il funzionamento del cavo seriale sarà necessario installare i [drivers](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/tree/main/SERIAL-INTERFACE/Software/WIN_DRIVERS).<br/>E' consigliato l' utilizzo dell' interfaccia CH340 per un discorso di compatibilità.<br/>
 Il [cavo](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/wiki/Serial-Cable) si connette alla porta joystick 2 del PC128 e ad una qualsiasi porta USB del computer Windows.<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195228.jpg" width=45%><br/><br/>
 Dal lato computer Windows si deve avviare il programma [VSerialRomT.exe](https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/SERIAL-INTERFACE/Software/VSerialRomT.exe) con il quale si potranno selezionare le roms da caricare, nell'ordine in cui sono inserite, dopodichè premere LOAD. Il programma si mette in attesa del PC128.<br/>
