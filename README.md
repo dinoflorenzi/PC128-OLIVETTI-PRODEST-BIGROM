@@ -23,7 +23,7 @@ Gli sviluppi della scheda singola sono meglio descritti nei link sottostanti o n
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20220428_181833.jpg" width=30%> <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221126_183600.jpg" width=30%>
 
 ### INSTALLAZIONE DELLA BIGROM
-La cartuccia si installa nello sportellino nello sportellino centrale del PC128, a computer spento, come mostrato nella foto<br/>
+La cartuccia si installa nello sportellino centrale del PC128, a computer spento, come mostrato nella foto<br/>
 Per l' installazione del software di gestione della bigrom è possibile utilizzare un programmatore utilizzando il file bigrom.eeprom, in tal caso la flash deve essere programmata prima dell' installazione sulla scheda. Altrimenti è possibile caricare il programma di gestione da registratore utilizzando un'audiocassetta su cui deve essere registrato il file audio bigrom.k7.wav.<br/>
 <img src="https://github.com/dinoflorenzi/PC128-OLIVETTI-PRODEST-BIGROM/blob/main/MULTI%20PAGE%20VERSION/IMG_20221108_195236.jpg" width=45%><br/>
 
